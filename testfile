@@ -1,0 +1,8 @@
+fun test {
+  val res = add(1,2)	
+  assertEquals(res,3)
+}
+
+fun add(a: Int, b: Int): Int {
+	return a + b
+}
